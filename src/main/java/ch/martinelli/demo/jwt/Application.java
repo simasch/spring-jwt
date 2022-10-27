@@ -21,31 +21,4 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
-    @Component
-    class DataInitializier implements ApplicationRunner {
-
-        private final UserRepository userRepository;
-        private final RoleRepository roleRepository;
-        private final PasswordEncoder passwordEncoder;
-
-        DataInitializier(UserRepository userRepository, RoleRepository roleRepository, PasswordEncoder passwordEncoder) {
-            this.userRepository = userRepository;
-            this.roleRepository = roleRepository;
-            this.passwordEncoder = passwordEncoder;
-        }
-
-        @Override
-        @Transactional
-        public void run(ApplicationArguments args) {
-            if (!userRepository.existsByEmail("john.doe@mail.com")) {
-                Role role = new Role(ROLE_USER);
-                role = roleRepository.save(role);
-
-                User user = new User("john", "john.doe@mail.com", passwordEncoder.encode("password"));
-                user.getRoles().add(role);
-                userRepository.save(user);
-            }
-        }
-    }
-
 }
