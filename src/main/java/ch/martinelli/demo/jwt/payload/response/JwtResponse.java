@@ -1,4 +1,4 @@
-package ch.martinelli.demo.vaadinjwt.payload.response;
+package ch.martinelli.demo.jwt.payload.response;
 
 import java.util.List;
 

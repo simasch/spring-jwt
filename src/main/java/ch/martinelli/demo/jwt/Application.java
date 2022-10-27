@@ -1,9 +1,9 @@
-package ch.martinelli.demo.vaadinjwt;
+package ch.martinelli.demo.jwt;
 
-import ch.martinelli.demo.vaadinjwt.models.Role;
-import ch.martinelli.demo.vaadinjwt.models.User;
-import ch.martinelli.demo.vaadinjwt.repository.RoleRepository;
-import ch.martinelli.demo.vaadinjwt.repository.UserRepository;
+import ch.martinelli.demo.jwt.models.Role;
+import ch.martinelli.demo.jwt.models.User;
+import ch.martinelli.demo.jwt.repository.RoleRepository;
+import ch.martinelli.demo.jwt.repository.UserRepository;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
@@ -12,7 +12,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
-import static ch.martinelli.demo.vaadinjwt.models.ERole.ROLE_USER;
+import static ch.martinelli.demo.jwt.models.ERole.ROLE_USER;
 
 @SpringBootApplication
 public class Application {

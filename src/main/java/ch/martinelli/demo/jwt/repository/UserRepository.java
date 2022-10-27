@@ -1,8 +1,8 @@
-package ch.martinelli.demo.vaadinjwt.repository;
+package ch.martinelli.demo.jwt.repository;
 
 import java.util.Optional;
 
-import ch.martinelli.demo.vaadinjwt.models.User;
+import ch.martinelli.demo.jwt.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

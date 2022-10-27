@@ -1,11 +1,11 @@
-package ch.martinelli.demo.vaadinjwt.security.services;
+package ch.martinelli.demo.jwt.security.services;
 
 import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import ch.martinelli.demo.vaadinjwt.models.User;
+import ch.martinelli.demo.jwt.models.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

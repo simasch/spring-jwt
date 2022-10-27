@@ -1,4 +1,4 @@
-package ch.martinelli.demo.vaadinjwt.payload.request;
+package ch.martinelli.demo.jwt.payload.request;
 
 import javax.validation.constraints.NotBlank;
 

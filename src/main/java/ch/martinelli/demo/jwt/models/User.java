@@ -1,4 +1,4 @@
-package ch.martinelli.demo.vaadinjwt.models;
+package ch.martinelli.demo.jwt.models;
 
 import java.util.HashSet;
 import java.util.Set;

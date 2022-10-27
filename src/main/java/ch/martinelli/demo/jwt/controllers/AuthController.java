@@ -1,4 +1,4 @@
-package ch.martinelli.demo.vaadinjwt.controllers;
+package ch.martinelli.demo.jwt.controllers;
 
 import java.util.HashSet;
 import java.util.List;
@@ -7,13 +7,13 @@ import java.util.stream.Collectors;
 
 import javax.validation.Valid;
 
-import ch.martinelli.demo.vaadinjwt.models.ERole;
-import ch.martinelli.demo.vaadinjwt.models.Role;
-import ch.martinelli.demo.vaadinjwt.models.User;
-import ch.martinelli.demo.vaadinjwt.payload.request.LoginRequest;
-import ch.martinelli.demo.vaadinjwt.payload.request.SignupRequest;
-import ch.martinelli.demo.vaadinjwt.payload.response.JwtResponse;
-import ch.martinelli.demo.vaadinjwt.payload.response.MessageResponse;
+import ch.martinelli.demo.jwt.models.ERole;
+import ch.martinelli.demo.jwt.models.Role;
+import ch.martinelli.demo.jwt.models.User;
+import ch.martinelli.demo.jwt.payload.request.LoginRequest;
+import ch.martinelli.demo.jwt.payload.request.SignupRequest;
+import ch.martinelli.demo.jwt.payload.response.JwtResponse;
+import ch.martinelli.demo.jwt.payload.response.MessageResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -27,10 +27,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import ch.martinelli.demo.vaadinjwt.repository.RoleRepository;
-import ch.martinelli.demo.vaadinjwt.repository.UserRepository;
-import ch.martinelli.demo.vaadinjwt.security.jwt.JwtUtils;
-import ch.martinelli.demo.vaadinjwt.security.services.UserDetailsImpl;
+import ch.martinelli.demo.jwt.repository.RoleRepository;
+import ch.martinelli.demo.jwt.repository.UserRepository;
+import ch.martinelli.demo.jwt.security.jwt.JwtUtils;
+import ch.martinelli.demo.jwt.security.services.UserDetailsImpl;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController

@@ -1,6 +1,6 @@
-package ch.martinelli.demo.vaadinjwt.security.jwt;
+package ch.martinelli.demo.jwt.security.jwt;
 
-import ch.martinelli.demo.vaadinjwt.security.services.UserDetailsImpl;
+import ch.martinelli.demo.jwt.security.services.UserDetailsImpl;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.MalformedJwtException;

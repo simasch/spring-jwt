@@ -1,4 +1,4 @@
-package ch.martinelli.demo.vaadinjwt.models;
+package ch.martinelli.demo.jwt.models;
 
 import javax.persistence.*;
 

@@ -1,4 +1,4 @@
-package ch.martinelli.demo.vaadinjwt.security.jwt;
+package ch.martinelli.demo.jwt.security.jwt;
 
 import java.io.IOException;
 import java.util.HashMap;

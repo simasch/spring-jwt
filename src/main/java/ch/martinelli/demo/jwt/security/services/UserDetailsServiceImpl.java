@@ -1,7 +1,7 @@
-package ch.martinelli.demo.vaadinjwt.security.services;
+package ch.martinelli.demo.jwt.security.services;
 
-import ch.martinelli.demo.vaadinjwt.models.User;
-import ch.martinelli.demo.vaadinjwt.repository.UserRepository;
+import ch.martinelli.demo.jwt.models.User;
+import ch.martinelli.demo.jwt.repository.UserRepository;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

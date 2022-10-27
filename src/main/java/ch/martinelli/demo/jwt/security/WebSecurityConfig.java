@@ -1,7 +1,7 @@
-package ch.martinelli.demo.vaadinjwt.security;
+package ch.martinelli.demo.jwt.security;
 
-import ch.martinelli.demo.vaadinjwt.security.jwt.AuthTokenFilter;
-import ch.martinelli.demo.vaadinjwt.security.jwt.JwtUtils;
+import ch.martinelli.demo.jwt.security.jwt.AuthTokenFilter;
+import ch.martinelli.demo.jwt.security.jwt.JwtUtils;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
